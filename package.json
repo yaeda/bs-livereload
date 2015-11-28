@@ -1,0 +1,24 @@
+{
+  "name": "bs-livereload",
+  "version": "0.1.0",
+  "description": "Browsersync plugin for easy livereloading",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaeda/bs-livereload.git"
+  },
+  "author": "Takeshi Yaeda <t.yaeda@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yaeda/bs-livereload/issues"
+  },
+  "homepage": "https://github.com/yaeda/bs-livereload#readme",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "browser-sync": "^2.6.0"
+  }
+}
