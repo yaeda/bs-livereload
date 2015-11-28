@@ -4,7 +4,7 @@
   "description": "Browsersync plugin for easy livereloading",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,13 @@
   },
   "homepage": "https://github.com/yaeda/bs-livereload#readme",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.3.4"
+  },
   "peerDependencies": {
     "browser-sync": "^2.6.0"
-  }
+  },
+  "browser-sync:ui": {}
 }
