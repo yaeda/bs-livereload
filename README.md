@@ -1,6 +1,12 @@
 Browsersync Live Reload
 =========================
-Browsersync plugin for easy livereloading
+[![Build Status](https://travis-ci.org/yaeda/bs-livereload.svg)](https://travis-ci.org/yaeda/bs-livereload)
+
+Browsersync plugin for easy livereloading / NO MORE `reload` AND `stream`
+
+
+How to use
+-------------------------
 
 ```
 var browserSync = require('browser-sync').create();
